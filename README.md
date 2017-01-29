@@ -1,5 +1,5 @@
 Laboratorio 1 Ciencias de datos
 
 Librerias utilizadas:
-pandas
-matplotlib.pyplot
+1. pandas
+2. matplotlib.pyplot
