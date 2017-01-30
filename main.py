@@ -4,7 +4,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-data=pd.read_csv('C:\Users\Oscar\Desktop\student\student-por.csv',sep=';')
+data=pd.read_csv('student-por.csv',sep=';') #ingresar ruta
 
 
 # ### -Propiedades de los datos
@@ -16,6 +16,7 @@ data.describe()
 
 
 data['freetime'].plot(kind="hist",title="Tiempo Libre")
+plt.show()
 
 
 # ### -Diagrama de dispersion entre el numero de clases fallidas y las notas finales
@@ -50,6 +51,7 @@ data['studytime'].value_counts() #retorna el numero de repeticiones de cada elem
 
 
 data['absences'].plot(kind="hist",title="Ausencias") #histograma de ausencias
+plt.show()
 
 
 # ### -Plantee al menos 3 preguntas sobre que puedan ser respondidas con los datos provistos y postule el codigo (o algoritmo) necesario para responderla
